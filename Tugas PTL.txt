@@ -1,0 +1,42 @@
+Tugas  Pengantar Telekomunikasi
+"Menghitung QOS Menggunakan Wireshark"
+Kelas SK1A
+
+Nama:Agil Anjas Frandesca
+Nim :09011282025087
+
+Soal:
+  1.Cari:
+	A.Throughput
+	B.Delay
+	C.Latency
+	D.Jitter
+	E.Packet loss	
+
+
+
+A. Throughput: jumlah data yang dikirim / waktu pengiriman data
+		=8000248 bytes /165,568 s
+		=48320,0135 bytes/s
+		=48,320 KB/s
+		=48,320 x 8
+		=386,56 Kb/s
+
+jadi,Throughputnya adalah 386,56 Kb/s
+
+B. paket yang diterima = paket yang dikirim - paket yang hilang
+			=10373-1
+			=10372
+Packetloss:(packet yang dikirim - packet yang diterima)/packet yang dikirim x 100%
+		=(10373-10372)/10373 x 100%
+		=0,0096%
+
+jadi,Packetlossnya adalah 0,0096%
+
+3. Delay:
+	Total Delay=165,568246 s
+	Rata-rata Delay=0,015963001 s
+
+4.jitter:
+	Total Jitter=165,559805 s
+	Rata-rata Jitter=0,015962187 s
